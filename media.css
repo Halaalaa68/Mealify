@@ -1,0 +1,135 @@
+/* xs */
+@media screen and (max-width: 639px)
+{
+    
+}
+/* sm */
+@media screen and (min-width: 640px) {
+    .home{
+        /* height: 140vh; */
+    }
+   
+    .chefs{
+        margin: 50% 0px;
+    }
+    .gallery{
+        padding: 5% 0px;
+    }
+    
+}
+/* md */
+ @media screen and (min-width: 768px){
+    .logo{
+        width: 40%;
+    }
+    .navlist{
+        width: 50%;
+        /* background-color: beige; */
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    .home{
+        padding-top: 50px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 100vh;
+        
+    }
+    .content{
+        width: 30%;
+        margin-left: 20px;
+        padding-top: 30px;
+        text-align: left;
+    }
+    .container{
+        width: 45%;
+        margin-top: 40px;
+    }
+    .home .container img{
+        width: 100%;
+    }
+
+    .video{
+        margin-top: 20px;
+    }
+    .chefs{
+        margin: 10% 0px;
+    }
+    .gallery{
+        padding: 5% 0px;
+    }
+    .chef-section{
+        flex-direction: row;
+        width: 90%;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    .chef-section .cards{
+        width: 29%;
+        margin: 0;
+    }
+    .gallery .food-section .cards{
+        width: 35%;
+    }
+    .gallery .food-section{
+        height: 180vh;
+    }
+    .footer .sections .section{
+        width: 40%;
+        color: white;
+    }
+    #wider{
+        width: 45%;
+    }
+    .footer .sections .section .logo img{
+        width: 40%;
+    }
+ }
+ /* lg */
+ @media screen and (min-width: 1024px){
+    .home .container img{
+        width: 70%;
+    }
+    .navlist{
+        width: 30%;
+        /* background-color: beige; */
+    }
+
+    .chefs{
+        margin: 5% 0px;
+    }
+    .gallery{
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+    .gallery .food-section .cards{
+        width: 29%;
+    }
+    .gallery .food-section{
+        height: 120vh;
+    }
+    .contact-section .cards{
+        width: 49%;
+    }
+    .footer .sections .section{
+        width: 25%;
+        color: white;
+    }
+ }
+ /* xl */
+ @media screen and (min-width: 1280px)
+ {
+    .gallery .food-section{
+        height: 160vh;
+    }
+    .footer .sections .section .logo img{
+        width: 30%;
+    }
+ }
+ /*  2xl*/
+ @media screen and (min-width: 1536px)
+ {
+
+ }
